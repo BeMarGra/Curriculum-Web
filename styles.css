@@ -7,7 +7,7 @@ body{
 div.contenedor{
     display: flex;
     width: 800px;
-    height: 1600px;
+    height: 1610px;
     flex-direction: column;
     border-style: ridge;
     border-color: blueviolet;
@@ -94,8 +94,8 @@ footer{
     position: relative;
     display: flex;
     width: 100%;
-    height: 98px;
-    top: 1500px;
+    height: 95px;
+    top: 1513px;
     background-image: url(https://github.com/BeMarGra/curriculum-web/blob/main/fondo1.jpg?raw=true);
     z-index: 1;
     align-items: flex-end;
@@ -125,7 +125,7 @@ footer{
     div.contenedor{
         display: flex;
         width: 490px;
-        height: 1086px;
+        height: 1045px;
         flex-direction: column;
         border-style: ridge;
         border-color: blueviolet;
@@ -147,11 +147,11 @@ footer{
     }
 
     header{
-        osition: absolute;
+        position: absolute;
         display: flex;
         width: 100%;
         height: 160px;
-        background-image: url(../imágenes/fondo1.jpg);
+        background-image: url(https://github.com/BeMarGra/curriculum-web/blob/main/fondo1.jpg?raw=true);
         align-content: center;
         flex-wrap: wrap;
         z-index: 0;
@@ -178,7 +178,7 @@ footer{
         justify-content: flex-start;
         color: #9C27B0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         text-decoration: none;
     }
 
@@ -192,7 +192,7 @@ footer{
         width: 100%;
         top: 155px;
         height: 80%;
-        background-image: url(../imágenes/fondo9.jpeg);
+        background-image: url(https://github.com/BeMarGra/curriculum-web/blob/main/fondo9.jpeg?raw=true);
         background-size: cover;
     }
     
@@ -221,9 +221,9 @@ footer{
         position: relative;
     display: flex;
     width: 100%;
-    height: 67px;
-    top: 1019px;
-    background-image: url(../imágenes/fondo1.jpg);
+    height:55px;
+    top: 985px;
+    background-image: url(https://github.com/BeMarGra/curriculum-web/blob/main/fondo1.jpg?raw=true);
     z-index: 1;
     align-items: flex-end;
     flex-direction: row;
