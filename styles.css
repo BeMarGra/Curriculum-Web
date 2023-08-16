@@ -8,7 +8,7 @@ div.contenedor{
     flex-direction: column;
     justify-content: flex-start;
     width: 800px;
-    height: 1650px;
+    height: 1680px;
     border-style: ridge;
     border-color: blueviolet;
    
@@ -53,7 +53,7 @@ h1{
     width: 100%;
     height: 40px;
     flex-direction: row;
-    justify-content: flex-start;
+    text-align: start;
     color: #9C27B0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -121,17 +121,17 @@ footer{
 
 /* -------------responsive--------------------- */
 
-@media (max-width: 650px) { 
+@media (max-width: 1300px) { 
 
     div.contenedor{
         width: 530px;
-        height: 1730px;
+        height: 1950px;
     }
     
     #yo{
-       width: 10rem;
-        left: 60%;
-        top: 16%;
+       width: 6rem;
+        left: 66%;
+        top: 12%;
     }
     
     header{
@@ -148,7 +148,7 @@ footer{
         flex-direction: row;
         justify-content: flex-start;
         color: #9C27B0;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     
     nav a{
@@ -160,6 +160,7 @@ footer{
     
     .centro{
         width: 100%;
+        height: 1810px;
         background-image: url(https://github.com/BeMarGra/curriculum-web/blob/main/fondo9.jpeg?raw=true);
         background-size: cover;
         padding-bottom: 10px;
@@ -169,18 +170,21 @@ footer{
         padding-left: 4px;
         background-color: #e6acdd;
         color: white;
+        font-size: 20px;
     }
     
-
+    h3 {
+        font-size: 15px;
+    }
 
     footer{
         width: 100%;
-        height: 40px;
+        height: 45px;
     }
     
     .redes{
         width: 80%;
-        height: 100%;
+        height: 45px;
     }
     
     .logo{
